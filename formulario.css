@@ -1,0 +1,36 @@
+/* BOTÃO HOME */
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #eba81f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.home-button:hover {
+  background-color: #c28710;
+}
+
+/* CHECKBOX FORMULÁRIO */
+.form-check-input:checked {
+    background-color: #eba81f;
+    border-color: #eba81f;
+    --bs-btn-active-bg: #ad7402;
+    --bs-btn-active-border-color: #ad7402;
+}
+
+/* BOTÃO */
+.btn {
+  transition: 0.2s;
+  padding: 16px 24px;
+  --bs-btn-active-bg: #ad7402;
+  --bs-btn-active-border-color: #ad7402;
+}
